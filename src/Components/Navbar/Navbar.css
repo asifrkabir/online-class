@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #0e153a;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', 'Josefin Sans', cursive;
+}
+
+.cart-btn:active{
+    outline: none;
+}

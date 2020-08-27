@@ -1,0 +1,11 @@
+.cart{
+    font-size: 50px;
+    width: 1000px;
+}
+
+.cart p{
+    font-size: 0.4em;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 600;
+}

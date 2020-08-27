@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from './Components/Main/Main';
 
 function App() {
+
+  const scrollBottom = () => {
+    window.scrollTo(0, 20000);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ backgroundColor: '#e2f3f5' }}>
+      <Navbar scrollBottom={scrollBottom}></Navbar>
+      <Main></Main>
     </div>
   );
+
 }
 
 export default App;
